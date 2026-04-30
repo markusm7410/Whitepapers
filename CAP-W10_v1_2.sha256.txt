@@ -1,0 +1,43 @@
+CAP-W10 v1.2 — Cryptographic Integrity Record
+================================================
+
+Document:      CAP-W10_v1_2.pdf
+Version:       1.2
+Author:        Markus Kotterink (ORCID: 0009-0001-4225-5891)
+Managing entity: Xconea — BNK Foundation, Netherlands
+Date:          April 2026
+
+SHA-256 hash of canonical PDF:
+
+a74533c3dc595447bca87d4b75f56e1b5eff49d9507b421da6de836dcb799079
+
+This hash uniquely identifies the canonical version of CAP-W10_v1_2.pdf.
+Any modification to the PDF file — even a single byte — will produce a
+different hash, allowing third parties to verify whether a copy of this
+document is authentic and unaltered.
+
+Verification (any operating system):
+
+  Linux / macOS:    sha256sum CAP-W10_v1_2.pdf
+                    shasum -a 256 CAP-W10_v1_2.pdf
+
+  Windows:          certutil -hashfile CAP-W10_v1_2.pdf SHA256
+                    Get-FileHash CAP-W10_v1_2.pdf -Algorithm SHA256
+
+The expected output must match the hash above exactly.
+
+Publication channels (each provides an independent dated public record):
+
+  - xconea.com/ip/coloraptitude-cap-w10
+  - github.com/xconea/coloraptitude-defensive-publication
+  - IP.com Prior Art Database
+  - Zenodo (preprint with DOI)
+
+The earliest dated publication record across these channels is the
+operative prior-art date.
+
+This integrity record is governed by the same Creative Commons
+Attribution-NoDerivatives 4.0 International licence (CC BY-ND 4.0)
+as the canonical document.
+
+© 2026 Markus Kotterink
